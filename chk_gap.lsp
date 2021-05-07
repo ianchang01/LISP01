@@ -1,4 +1,4 @@
-;;
+;;Change prompt
 
 (defun *error* (msg)
   (if oldla (setvar "clayer" oldla))

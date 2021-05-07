@@ -1,4 +1,6 @@
-;;
+;;Add new remark
+(princ "Version 2")
+
 
 (defun *error* (msg)
   (if oldla (setvar "clayer" oldla))

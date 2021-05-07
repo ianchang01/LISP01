@@ -1,3 +1,5 @@
+;;
+
 (defun *error* (msg)
   (if oldla (setvar "clayer" oldla))
   (if oldos (setvar "osmode" oldos))
@@ -27,7 +29,7 @@
   (setq pass t)
   (get_current)
   (initget 7)
-  (setq #gap (getreal "\nMinimum gap: "))
+  (setq #gap (getreal "\n輸入最小間距: "))
   (setq ss (ssget '((0 . "LWPOLYLINE"))))
   (if ss (go_chk))
   (rtn_current)

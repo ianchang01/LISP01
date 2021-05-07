@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 ;;Change prompt
-=======
 ;;Add new remark
-(princ "Version 2")
+(princ "Version 3")
 
 >>>>>>> 1c5e7d5c554a4cf0fdc7d2bac8d45ebd9f17d8a9
 

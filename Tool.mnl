@@ -1,0 +1,3 @@
+(setvar "menubar" 1)
+(setvar "gridmode" 0)
+

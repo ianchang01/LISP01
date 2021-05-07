@@ -29,7 +29,7 @@
   (setq pass t)
   (get_current)
   (initget 7)
-  (setq #gap (getreal "\n輸入最小間距: "))
+  (setq #gap (getreal "\nMin. gap: "))
   (setq ss (ssget '((0 . "LWPOLYLINE"))))
   (if ss (go_chk))
   (rtn_current)
